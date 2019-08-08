@@ -14,6 +14,7 @@ public class Human {
 	
 	public void attack(Human target) {
 		target.setHealth(target.getHealth()-this.getStr());
+		System.out.println(this + " just ATTACKED " + target + " for " + this.getStr() +" damage.");
 	}
 	
 	public int getStr() {
